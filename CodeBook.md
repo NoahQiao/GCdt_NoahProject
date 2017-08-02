@@ -6,6 +6,7 @@ You could get the tidydata finally (I suggest you to use  *tdt <- read.table("./
 ***
 
 1. subject
+
 subject is the volunteers number, from 1 - 30
 2. activity
 activity is the performed 6 activities
