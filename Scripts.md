@@ -37,7 +37,7 @@ feature <- read.table("./UCI/UCI HAR Dataset/features.txt", stringsAsFactors = F
 # > Step 2 : Extract the mean/std from features, then get their row num.
 
 fi <- grep(("mean\\(|std\\("), feature)
-exdt <- finalData[, c(1, 2, fi+2)]
+exdt <- finaldt[, c(1, 2, fi+2)]
 colnames(exdt) <- c("subject", "activity", feature[fi])
 
 # 3. Uses descriptive activity names to name the activities in the data set.
